@@ -1,0 +1,12 @@
+{
+  "name": "array-utils-plus001",
+  "version": "1.0.0",
+  "description": "A lightweight utility package that extends JavaScript arrays with additional higher-order functions for intuitive and efficient operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["array", "utility", "JavaScript", "HOF", "functional-programming", "data-processing"],
+  "author": "Piyush Raj",
+  "license": "ISC"
+}

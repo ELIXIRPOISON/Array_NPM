@@ -1,0 +1,12 @@
+require('./index.js');
+const numbers = [1, 2, 2, 3, 4, 4, 5];
+console.log("Sum:", numbers.sum()); 
+console.log("Clear Duplicates:", numbers.clearDuplicates()); 
+console.log("Average:", numbers.average()); 
+console.log("Max Value:", numbers.maxValue());
+console.log("Min Value:", numbers.minValue()); 
+console.log("Multiply By 2:", numbers.multiplyBy(2)); 
+console.log("Filter > 3:", numbers.filterByCondition(num => num > 3)); 
+console.log("Remove 2:", numbers.removeElement(2));
+console.log("Flatten:", [[1, 2], [3, [4, 5]]].flatten());
+console.log("Partition odd/even:", numbers.partition(num => num % 2 === 0));
